@@ -1,0 +1,54 @@
+ <html>
+<head>
+<script type="text/javascript" src="validateform.js"></script>
+<style>
+ul {list-style-type:none;}
+form{
+  background-color: lightblue;
+}
+</style>
+</head>
+ 
+<body>
+<form action="#" name="collegeSignupForm" onsubmit="return(validateHTMlform());">
+ 
+<div cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+ 
+<ul>
+<li>
+<center><font size=4><b>College Registration Form</b></font></center>
+</li>
+</ul>
+ 
+<ul>
+<li>College Name:<input type=text name=textnames id="textname" size="30"></li>
+</ul>
+ 
+<ul>
+<li>Email address:<input type="text" name="email_id" id="emailid" size="30"></li>
+</ul>
+ 
+<ul>
+<li>Contact Number:<input type="text" name="number" id="mobile_no" size="30"></li>
+</ul>
+
+<ul>
+<li>Accommodation<input type="radio" name="acc" value="Yes" onclick="myFunction()" size="10">Yes
+<input type="radio" name="acc" value="No" size="10">No</li>
+<p id="display" ></p>
+<p id="display1"></p>
+
+</ul>
+<ul>
+
+</ul>
+
+<ul>
+<li><input type="reset"></li>
+<li colspan="2"><input type="submit" value="Submit Form"onclick="confrimfuncation()" /></li>
+</ul>
+</div>
+</form>
+</body>
+</html>
